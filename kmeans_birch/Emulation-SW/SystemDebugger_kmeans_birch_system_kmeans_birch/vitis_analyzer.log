@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vitis Analyzer v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# 
+# 
+# Start of session at: Sun Nov 23 15:24:13 2025
+# Process ID: 64278
+# Current directory: /home/ramu/workspace/kmeans_birch/Emulation-SW/SystemDebugger_kmeans_birch_system_kmeans_birch
+# Command line: vitis_analyzer /home/ramu/workspace/kmeans_birch/Emulation-SW/SystemDebugger_kmeans_birch_system_kmeans_birch/xrt.run_summary -listener
+# Log file: /home/ramu/workspace/kmeans_birch/Emulation-SW/SystemDebugger_kmeans_birch_system_kmeans_birch/vitis_analyzer.log
+# Journal file: /home/ramu/workspace/kmeans_birch/Emulation-SW/SystemDebugger_kmeans_birch_system_kmeans_birch/vitis_analyzer.jou
+# Running On: ramu, OS: Linux, CPU Frequency: 3800.000 MHz, CPU Physical cores: 10, Host memory: 33326 MB
+#-----------------------------------------------------------
+start_gui
+create_project dummy
+exit
+INFO: [Common 17-206] Exiting vitis_analyzer at Sun Nov 23 15:24:24 2025...
