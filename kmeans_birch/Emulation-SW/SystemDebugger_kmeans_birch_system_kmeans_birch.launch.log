@@ -1,0 +1,23 @@
+Image size: 612x493
+Data size in bytes = 905148
+Loading: './binary_container_1.xclbin'
+WARNING: Image file not found in any of these locations:
+  - /home/ramu/workspace/kmeans_birch/data/test_image.raw
+Generating test pattern instead...
+To use your test image, convert it to raw format:
+  convert test_image.jpg -resize 493x612 -depth 8 rgb:test_image.raw
+Starting kernel execution...
+Kernel execution completed.
+Current working directory: /run/media/mmcblk0p1
+K-means output saved to: /run/media/mmcblk0p1/kmeans_output.ppm
+BIRCH output saved to: /run/media/mmcblk0p1/birch_output.ppm
+K-means raw data saved to: /run/media/mmcblk0p1/kmeans_output.raw
+BIRCH raw data saved to: /run/media/mmcblk0p1/birch_output.raw
+
+=== Output Files Summary ===
+All files saved in: /run/media/mmcblk0p1
+  - /run/media/mmcblk0p1/kmeans_output.ppm (viewable image)
+  - /run/media/mmcblk0p1/birch_output.ppm (viewable image)
+  - /run/media/mmcblk0p1/kmeans_output.raw (raw binary data)
+  - /run/media/mmcblk0p1/birch_output.raw (raw binary data)
+Bye kmeans_birch

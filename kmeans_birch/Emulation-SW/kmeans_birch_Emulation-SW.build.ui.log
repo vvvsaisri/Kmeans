@@ -1,0 +1,11 @@
+2025-11-26T19:36:10.23963700255-19:36:10 **** Build of configuration Emulation-SW for project kmeans_birch ****
+000-make -j16 all 
+000-aarch64-linux-gnu-g++ -std=c++1y -DVITIS_PLATFORM=xilinx_zcu104_base_202320_1 -D__USE_XOPEN2K8 -I/tools/Xilinx/Vitis_HLS/2023.2/include/ -I/home/ramu/workspace/xilinx-zynqmp-common-v2023.2_10140544/xilinx-zynqmp-common-v2023.2/sysroots/cortexa72-cortexa53-xilinx-linux/usr/include/xrt/ -O0 -g -Wall -c -fmessage-length=0 --sysroot=/home/ramu/workspace/xilinx-zynqmp-common-v2023.2_10140544/xilinx-zynqmp-common-v2023.2/sysroots/cortexa72-cortexa53-xilinx-linux -o "src/kmeans_birch_host.o" "../src/kmeans_birch_host.cpp"
+000/kmeans_birch/src/kmeans_birch_host.cpp16-1-1fatal error: kmeans_birch_header.h: No such file or directory2-../src/kmeans_birch_host.cpp:16:10: fatal error: kmeans_birch_header.h: No such file or directory
+000-   16 | #include "kmeans_birch_header.h"
+000-      |          ^~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000/kmeans_birch/Emulation-SW0-1-1make: *** [makefile:56: src/kmeans_birch_host.o] Error 12-make: *** [makefile:56: src/kmeans_birch_host.o] Error 1
+00255-
+19:36:10 Build Finished (took 230ms)
+
