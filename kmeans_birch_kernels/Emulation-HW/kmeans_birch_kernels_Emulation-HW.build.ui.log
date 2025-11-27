@@ -1,0 +1,33 @@
+2025-11-22T14:51:00.72077100255-14:51:00 **** Incremental Build of configuration Emulation-HW for project kmeans_birch_kernels ****
+000-make -j16 all 
+000-/tools/Xilinx/Vitis/2023.2/bin/v++ --target hw_emu --compile -I"../src" --config birch_distance-compile.cfg -o"build/birch_distance.xo" "../src/kmeans_birch.cpp"
+000-Option Map File Used: '/tools/Xilinx/Vitis/2023.2/data/vitis/vpp/optMap.xml'
+000-
+000-****** v++ v2023.2 (64-bit)
+000-  **** SW Build 4026344 on 2023-10-11-15:42:10
+000-    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+000-    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+000-
+000-INFO: [v++ 60-1306] Additional information associated with this v++ compile can be found at:
+000-	Reports: /home/ramu/workspace/kmeans_birch_kernels/Emulation-HW/build/reports/birch_distance
+000-	Log files: /home/ramu/workspace/kmeans_birch_kernels/Emulation-HW/build/logs/birch_distance
+000-Running Dispatch Server on port: 43245
+000-INFO: [v++ 60-1548] Creating build summary session with primary output /home/ramu/workspace/kmeans_birch_kernels/Emulation-HW/build/birch_distance.xo.compile_summary, at Sat Nov 22 14:51:04 2025
+000-INFO: [v++ 60-1315] Creating rulecheck session with output '/home/ramu/workspace/kmeans_birch_kernels/Emulation-HW/build/reports/birch_distance/birch_distance_guidance.html', at Sat Nov 22 14:51:04 2025
+000-INFO: [v++ 60-895]   Target platform: /tools/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+000-INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/tools/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/hw/hw.xsa'
+000-INFO: [v++ 60-585] Compiling for hardware emulation target
+000-INFO: [v++ 60-423]   Target device: xilinx_zcu104_base_202320_1
+000-INFO: [v++ 60-242] Creating kernel: 'birch_distance'
+000-
+000-===>The following messages were generated while  performing high-level synthesis for kernel: birch_distance Log file: /home/ramu/workspace/kmeans_birch_kernels/Emulation-HW/build/birch_distance/birch_distance/vitis_hls.log :
+000/kmeans_birch_kernels/Emulation-HW0-1-1v++ 207-812: 'kmeans_birch_header.h' file not found (/home/ramu/workspace/kmeans_birch_kernels/src/kmeans_birch.cpp:3:10)2-ERROR: [v++ 207-812] 'kmeans_birch_header.h' file not found (/home/ramu/workspace/kmeans_birch_kernels/src/kmeans_birch.cpp:3:10)
+000/kmeans_birch_kernels/Emulation-HW0-1-1v++ 60-300: Failed to build kernel(ip) birch_distance, see log for details: /home/ramu/workspace/kmeans_birch_kernels/Emulation-HW/build/birch_distance/birch_distance/vitis_hls.log2-ERROR: [v++ 60-300] Failed to build kernel(ip) birch_distance, see log for details: /home/ramu/workspace/kmeans_birch_kernels/Emulation-HW/build/birch_distance/birch_distance/vitis_hls.log
+000/kmeans_birch_kernels/Emulation-HW0-1-1v++ 60-773] In '/home/ramu/workspace/kmeans_birch_kernels/Emulation-HW/build/birch_distance/birch_distance/vitis_hls.log', caught Tcl error: ERROR: [HLS 207-812: 'kmeans_birch_header.h' file not found (/home/ramu/workspace/kmeans_birch_kernels/src/kmeans_birch.cpp:3:10)2-ERROR: [v++ 60-773] In '/home/ramu/workspace/kmeans_birch_kernels/Emulation-HW/build/birch_distance/birch_distance/vitis_hls.log', caught Tcl error: ERROR: [HLS 207-812] 'kmeans_birch_header.h' file not found (/home/ramu/workspace/kmeans_birch_kernels/src/kmeans_birch.cpp:3:10)
+000/kmeans_birch_kernels/Emulation-HW0-1-1v++ 60-599: Kernel compilation failed to complete2-ERROR: [v++ 60-599] Kernel compilation failed to complete
+000/kmeans_birch_kernels/Emulation-HW0-1-1v++ 60-592: Failed to finish compilation2-ERROR: [v++ 60-592] Failed to finish compilation
+000-INFO: [v++ 60-1653] Closing dispatch client.
+000/kmeans_birch_kernels/Emulation-HW0-1-1make: *** [makefile:58: build/birch_distance.xo] Error 12-make: *** [makefile:58: build/birch_distance.xo] Error 1
+00255-
+14:51:08 Build Finished (took 7s.430ms)
+
