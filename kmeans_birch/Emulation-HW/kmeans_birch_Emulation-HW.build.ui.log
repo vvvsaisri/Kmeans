@@ -1,0 +1,34 @@
+2025-11-22T14:50:58.74462100255-14:50:58 **** Incremental Build of configuration Emulation-HW for project kmeans_birch ****
+000-make -j16 all 
+000-/tools/Xilinx/Vitis/2023.2/bin/emconfigutil --od . --nd 1  --platform /tools/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+000-aarch64-linux-gnu-g++ -std=c++1y -DVITIS_PLATFORM=xilinx_zcu104_base_202320_1 -D__USE_XOPEN2K8 -I/tools/Xilinx/Vitis_HLS/2023.2/include/ -I/home/ramu/workspace/xilinx-zynqmp-common-v2023.2_10140544/xilinx-zynqmp-common-v2023.2/sysroots/cortexa72-cortexa53-xilinx-linux/usr/include/xrt/ -O0 -g -Wall -c -fmessage-length=0 --sysroot=/home/ramu/workspace/xilinx-zynqmp-common-v2023.2_10140544/xilinx-zynqmp-common-v2023.2/sysroots/cortexa72-cortexa53-xilinx-linux -o "src/kmeans_birch_host.o" "../src/kmeans_birch_host.cpp"
+000-In file included from /tools/Xilinx/Vitis_HLS/2023.2/include/hls_fpo.h:140,
+000-                 from /tools/Xilinx/Vitis_HLS/2023.2/include/etc/hls_half_fpo.h:19,
+000-                 from /tools/Xilinx/Vitis_HLS/2023.2/include/hls_half.h:26,
+000-                 from /tools/Xilinx/Vitis_HLS/2023.2/include/etc/ap_private.h:52,
+000-                 from /tools/Xilinx/Vitis_HLS/2023.2/include/etc/ap_common.h:666,
+000-                 from /tools/Xilinx/Vitis_HLS/2023.2/include/ap_int.h:10,
+000-                 from ../src/kmeans_birch_header.h:7,
+000-                 from ../src/kmeans_birch_host.cpp:17:
+000/kmeans_birch/Emulation-HW10-1-1multi-line comment [-Wcomment]1-/tools/Xilinx/Vitis_HLS/2023.2/include/floating_point_v7_1_bitacc_cmodel.h:10:1: warning: multi-line comment [-Wcomment]
+000-   10 | // \   \  /  \
+000-      | ^
+000/kmeans_birch/src/kmeans_birch_host.cpp20-1-1fatal error: xcl2.hpp: No such file or directory2-../src/kmeans_birch_host.cpp:20:10: fatal error: xcl2.hpp: No such file or directory
+000-   20 | #include "xcl2.hpp"
+000-      |          ^~~~~~~~~~
+000-compilation terminated.
+000/kmeans_birch/Emulation-HW0-1-1make: *** [makefile:56: src/kmeans_birch_host.o] Error 12-make: *** [makefile:56: src/kmeans_birch_host.o] Error 1
+000/kmeans_birch/Emulation-HW0-1-1make: *** Waiting for unfinished jobs....2-make: *** Waiting for unfinished jobs....
+000-
+000-****** configutil v2023.2 (64-bit)
+000-  **** SW Build 4026344 on 2023-10-11-15:42:10
+000-    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+000-    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+000-
+000-INFO: [ConfigUtil 60-895]   Target platform: /tools/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+000-INFO: [ConfigUtil 60-1578]   This platform contains Xilinx Shell Archive '/tools/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/hw/hw.xsa'
+000-INFO: [ConfigUtil 60-1032] Extracting hardware platform to .
+000-emulation configuration file `emconfig.json` is created in . directory 
+00255-
+14:51:00 Build Finished (took 1s.536ms)
+
